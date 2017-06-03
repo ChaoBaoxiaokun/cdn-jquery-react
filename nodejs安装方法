@@ -1,0 +1,10 @@
+第一步: 在官网上下载nodejs安装包并解压:
+第二步: 执行下面代码: sudo ln -s /home/chenk/nodejs/bin/node /usr/local/bin/node   其中: /home/chenk/ 安装包所在目录,nodejs为安装包名称.
+
+第三步:  执行下面代码  sudo ln -s /home/chenk/nodejs/bin/npm /usr/local/bin/npm    其中: /home/chenk/ 安装包所在目录,nodejs为安装包名称.
+
+第四部: 检查安装是否完好 :   node -v     npm -v   如果出现版本名称,则说明安装成功.
+
+
+第五步: 升级npm到最新版本:  sudo npm install npm@latest -g   完成安装.
+
